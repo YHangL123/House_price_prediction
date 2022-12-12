@@ -1,4 +1,3 @@
-# Project
 # House Price Visualization and Prediction
 
 The purpose this project is to show user the house price range in different plots and predict the house price for varies requirements.
