@@ -18,14 +18,50 @@ After the user selects the data, a series of visual data will be provided to let
 
 ### Dependencies
 
-Windows 10 or greater, Python 3.7 or greater, Numpy, Plotly, PyTorch, Pandas, tkinter, PIL
+Windows 10 or greater, Python 3.7 or greater, Numpy, Plotly, PyTorch, Pandas, tkinter, PIL, Kaleido, Pypdf2, os
 
 ### Installing
 
 * Go to the following link to download PyTorch.
   https://pytorch.org/get-started/locally/
 * Follow the steps on tha same link to complete the installation.
+* Install kaleido using CMD.exe Prompt, copy (pip install kaleido) and hit enter for installation.
+* Install reportlab using CMD.exe Prompt, copy (pip install reportlab) and hit enter for installation.
+* Install Pypdf2 using CMD.exe Prompt, copy (pip install PyPDF2) and hit enter for installation.
 
+### Executing program
+
+* Open Project.py
+
+Before running the code:
+
+In the following command change the path to your own path
+
+```
+path = '# Enter your path here'  (ex. /Users/Username/PycharmProjects/project)
+```
+
+
+* Run the Code
+
+For the Visualization:
+
+* Select the data on GUI and click "Confirm" botton
+* Review the massage shown in massage box 
+* Click "Get Plots" botton and the results will save as .html on desktop
+* Open .html on desktop to see the results
+
+For the Prediction:
+
+* Select the data on GUI and click "Confirm" botton
+* Review the massage shown in massage box 
+* Click "Get Predicts" botton and the results will save as .html on desktop
+* Open .html on desktop to see the results
+
+
+## Help
+
+Any Error massage shown, Restart Kernel and Run All Cells.
 ## Authors
 
 Yuhang Li
