@@ -7,6 +7,7 @@ The purpose this project is to show user the house price range in different plot
 
 First of all, this project uses a crawler program to collect nearly 30,000 pieces of housing price information in Beijing. 
 The raw data came from China's well-known real estate transaction information website Lianjia and Anjuke (similar to the apartments website). 
+The crawler code is not include in this project, because it is not included in the proposal and it requires VPN to get data from the above websites.
 In the data cleaning part, blank data and extreme data are removed to get better data visualization and house price prediction.
 For the convenience of users, we use the tkinter package to create a graphic user interface (GUI) for user interaction. 
 Users can choose the housing data they want to know in our interface, such as the built year, floor, size, area of the house and other factors. 
