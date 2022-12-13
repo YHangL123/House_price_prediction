@@ -44,26 +44,27 @@ path = '# Enter your path here'  (ex. /Users/Username/###/###)
 * Run the Code
 
 
-## GUI Instruction
+### GUI Instruction
 
 For the Visualization:
 
 * Select the data on GUI and click "Confirm" botton
 * Review the massage shown in massage box 
-* Click "Get Plots" botton and the results will save as .html on desktop
-* Open .html on desktop to see the results
+* If no error massage shown, click "Get Plots" botton and the results will save as pdf in assigned folder
+* Open pdf file saved in assigned folder to see the results
 
 For the Prediction:
 
 * Select the data on GUI and click "Confirm" botton
 * Review the massage shown in massage box 
-* Click "Get Predicts" botton and the results will save as .html on desktop
-* Open .html on desktop to see the results
+* If no error massage shown, click "Get Predicts" botton and the results will save as pdf in assigned folder
+* Open pdf file saved in assigned folder to see the results
 
 
 ## Help
 
 Any Error massage shown, Restart Kernel and Run All Cells.
+
 ## Authors
 
 Yuhang Li
@@ -78,7 +79,7 @@ Yujie Yi
 
 ## License
 
-This project does not use license.
+N/A
 
 
 ## Acknowledgments
