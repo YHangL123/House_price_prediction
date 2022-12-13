@@ -30,16 +30,7 @@ Windows 10 or greater, MacOS, Python 3.7 or greater, Numpy, Plotly, PyTorch, Pan
 
 ### Executing Program
 
-* Open Project.py
-
-Before running the code:
-
-In the following command change the path to your own path
-
-```
-path = '# Enter your path here'  (ex. /Users/Username/###/###)
-```
-
+* Open House_price_prediction.py
 
 * Run the Code
 
@@ -58,7 +49,7 @@ For the Visualization GUI:
 * Click "Confirm" button   
 * Review the massage shown in massage box 
 * If error massage shown, check the list and don't leave it blank
-* If no error massage shown, click "Get Plots" button and the results will save as pdf in assigned folder
+* If no error massage shown, click "Get Plots" button and the results will save as pdf in same folder
 
 
 For the Prediction GUI:
@@ -73,10 +64,10 @@ For the Prediction GUI:
 * Click "Confirm" botton   
 * Review the massage shown in massage box 
 * If error massage shown, check the list and don't leave it blank
-* If no error massage shown, click "Get Predicts" botton and the results will save as pdf in assigned folder
+* If no error massage shown, click "Get Predicts" botton and the results will save as pdf in same folder
 
 ### Get Results
-* Open pdf file saved in assigned folder to see the results
+* Open pdf file saved to see the results
 
 ## Help
 * If error massage shown in GUI, check the list and don't leave it blank.
