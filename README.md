@@ -48,14 +48,14 @@ path = '# Enter your path here'  (ex. /Users/Username/###/###)
 
 For the Visualization:
 
-* Select the data on GUI and click "Confirm" botton
+* Select the data on GUI and click "Confirm" botton  *(DO NOT SET MINIMUN VALUE GREATER THAN MAXIMUN VALUE)
 * Review the massage shown in massage box 
 * If no error massage shown, click "Get Plots" botton and the results will save as pdf in assigned folder
 * Open pdf file saved in assigned folder to see the results
 
 For the Prediction:
 
-* Select the data on GUI and click "Confirm" botton
+* Select the data on GUI and click "Confirm" botton  *(DO NOT SET MINIMUN VALUE GREATER THAN MAXIMUN VALUE)
 * Review the massage shown in massage box 
 * If no error massage shown, click "Get Predicts" botton and the results will save as pdf in assigned folder
 * Open pdf file saved in assigned folder to see the results
