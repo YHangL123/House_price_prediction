@@ -67,9 +67,9 @@ Any Error massage shown, Restart Kernel and Run All Cells.
 
 ## Authors
 
-Yuhang Li
-Zhide Wang
-Yujie Yi
+*Yuhang Li
+*Zhide Wang
+*Yujie Yi
 
 
 ## Version History
