@@ -37,11 +37,14 @@ Before running the code:
 In the following command change the path to your own path
 
 ```
-path = '# Enter your path here'  (ex. /Users/Username/PycharmProjects/project)
+path = '# Enter your path here'  (ex. /Users/Username/###/###)
 ```
 
 
 * Run the Code
+
+
+## GUI Instruction
 
 For the Visualization:
 
