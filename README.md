@@ -17,18 +17,18 @@ After the user selects the data, a series of visual data will be provided to let
 
 ### Dependencies
 
-Windows 10 or greater, Python 3.7 or greater, Numpy, Plotly, PyTorch, Pandas, tkinter, PIL, Kaleido, Pypdf2, os
+Windows 10 or greater, MacOS, Python 3.7 or greater, Numpy, Plotly, PyTorch, Pandas, tkinter, PIL, Kaleido 0.1, Pypdf2, os
 
 ### Installing
 
 * Go to the following link to download PyTorch.
   https://pytorch.org/get-started/locally/
 * Follow the steps on tha same link to complete the installation.
-* Install kaleido using CMD.exe Prompt, copy (pip install kaleido) and hit enter for installation.
+* Install kaleido using CMD.exe Prompt, copy (pip install kaleido) and hit enter for installation. 
 * Install reportlab using CMD.exe Prompt, copy (pip install reportlab) and hit enter for installation.
 * Install Pypdf2 using CMD.exe Prompt, copy (pip install PyPDF2) and hit enter for installation.
 
-### Executing program
+### Executing Program
 
 * Open Project.py
 
@@ -46,24 +46,41 @@ path = '# Enter your path here'  (ex. /Users/Username/###/###)
 
 ### GUI Instruction
 
-For the Visualization:
+For the Visualization GUI:
 
-* Select the data on GUI and click "Confirm" botton  *(DO NOT SET MINIMUN VALUE GREATER THAN MAXIMUN VALUE)
+* Choose the region from the list
+* Choose the number of bedrooms in the list
+* Slide the scale to set the range for the floor *(DO NOT SET MINIMUN VALUE GREATER THAN MAXIMUN VALUE)
+* Select if you want elevator in the list
+* Select if you want renovation in the list
+* Slide the scale to set the range for the build year *(DO NOT SET MINIMUN VALUE GREATER THAN MAXIMUN VALUE)
+* Slide the scale to set the range for the size *(DO NOT SET MINIMUN VALUE GREATER THAN MAXIMUN VALUE)
+* Click "Confirm" button   
 * Review the massage shown in massage box 
-* If no error massage shown, click "Get Plots" botton and the results will save as pdf in assigned folder
-* Open pdf file saved in assigned folder to see the results
+* If error massage shown, check the list and don't leave it blank
+* If no error massage shown, click "Get Plots" button and the results will save as pdf in assigned folder
 
-For the Prediction:
 
-* Select the data on GUI and click "Confirm" botton  *(DO NOT SET MINIMUN VALUE GREATER THAN MAXIMUN VALUE)
+For the Prediction GUI:
+
+* Choose the region from the list
+* Choose the number of bedrooms in the list
+* Slide the scale to select the floor you want
+* Select if you want elevator in the list
+* Select if you want renovation in the list
+* Slide the scale to select the year you want
+* Slide the scale to select the size you want
+* Click "Confirm" botton   
 * Review the massage shown in massage box 
+* If error massage shown, check the list and don't leave it blank
 * If no error massage shown, click "Get Predicts" botton and the results will save as pdf in assigned folder
-* Open pdf file saved in assigned folder to see the results
 
+### Get Results
+* Open pdf file saved in assigned folder to see the results
 
 ## Help
-
-Any Error massage shown, Restart Kernel and Run All Cells.
+* If error massage shown in GUI, check the list and don't leave it blank.
+* Any other error massage shown, Restart Kernel and Run All Cells.
 
 ## Authors
 
