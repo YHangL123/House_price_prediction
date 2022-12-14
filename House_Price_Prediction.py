@@ -25,10 +25,6 @@ from PIL import Image, ImageTk
 from tkinter import messagebox
 from PyPDF2 import PdfFileMerger
 
-def GetDesktopPath():
-    return os.path.join(os.path.expanduser("~"), 'Desktop')
-print(GetDesktopPath())
-
 # Import the data of Lianjia and Anjuke
 lianjia_df = pd.read_csv('data/lianjia.csv')
 anjuke_df = pd.read_csv('data/anjuke.csv')
